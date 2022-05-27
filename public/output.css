@@ -719,15 +719,6 @@ a:hover {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.piyal-border {
-  display: block;
-  border: 10px solid green;
-  background-color: blue;
-  padding: 4px;
-  margin: 4px;
-  border-radius: 10px;
-}
-
 .hover\:relative:hover {
   position: relative;
 }
