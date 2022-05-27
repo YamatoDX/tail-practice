@@ -745,6 +745,15 @@ a:hover {
   background-color: rgb(199 210 254 / var(--tw-bg-opacity));
 }
 
+.hover\:piyal-border:hover {
+  display: block;
+  border: 10px solid green;
+  background-color: blue;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 10px;
+}
+
 .group:hover .group-hover\:font-extrabold {
   font-weight: 800;
 }
