@@ -8,6 +8,19 @@
   }
 }
 
-.btn {
-  @apply px-4 py-2 border-2 border-black bg-gray-200 shadow-md rounded-md m-2 text-black text-sm font-bold focus:ring-2 focus:ring-red-500 focus:ring-offset-1 text-center tracking-tighter;
+@layer components {
+  .btn {
+    @apply px-4 py-2 border-2 border-gray-200 bg-gray-100 shadow-md rounded-md m-2 text-black text-sm font-bold focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-1 text-center tracking-tighter;
+  }
+}
+
+@layer utilities {
+  .piyal-border {
+    display: block;
+    border: 10px solid green;
+    background-color: blue;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 10px;
+  }
 }
