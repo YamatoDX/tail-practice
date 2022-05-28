@@ -23,26 +23,6 @@
     margin: 4px;
     border-radius: 10px;
   }
-  @variants focus, hover {
-    .demo-border {
-      display: block;
-      border: 10px solid green;
-      background-color: blue;
-      padding: 4px;
-      margin: 4px;
-      border-radius: 10px;
-    }
-  }
-  @responsive {
-    .demo-border {
-      display: block;
-      border: 10px solid green;
-      background-color: blue;
-      padding: 4px;
-      margin: 4px;
-      border-radius: 10px;
-    }
-  }
 }
 
 @layer utilities {
