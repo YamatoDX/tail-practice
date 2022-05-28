@@ -720,16 +720,21 @@ a:hover {
 }
 
 .piyal-sample {
+  /* theme function in use */
   color: #eab308;
   background-color: #ef4444;
   text-align: center;
 }
+
+/* screen function in use */
 
 @media (min-width: 768px) {
   .piyal-sample {
     color: #fde047;
   }
 }
+
+/* screen directive in action */
 
 @media (min-width: 1024px) {
   .piyal-sample {

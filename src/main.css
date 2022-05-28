@@ -47,17 +47,20 @@
 
 @layer utilities {
   .piyal-sample {
+    /* theme function in use */
     color: theme("colors.yellow.500");
     background-color: theme("colors.red.500");
     text-align: center;
   }
 
+  /* screen function in use */
   @media screen(md) {
     .piyal-sample {
       color: theme("colors.yellow.300");
     }
   }
 
+  /* screen directive in action */
   @screen lg {
     .piyal-sample {
       color: theme("colors.black");
