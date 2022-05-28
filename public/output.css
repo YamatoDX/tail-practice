@@ -719,6 +719,24 @@ a:hover {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.piyal-sample {
+  color: #eab308;
+  background-color: #ef4444;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .piyal-sample {
+    color: #fde047;
+  }
+}
+
+@media (min-width: 1024px) {
+  .piyal-sample {
+    color: #000;
+  }
+}
+
 .hover\:relative:hover {
   position: relative;
 }
@@ -734,15 +752,6 @@ a:hover {
 .hover\:bg-indigo-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(199 210 254 / var(--tw-bg-opacity));
-}
-
-.hover\:piyal-border:hover {
-  display: block;
-  border: 10px solid green;
-  background-color: blue;
-  padding: 4px;
-  margin: 4px;
-  border-radius: 10px;
 }
 
 .group:hover .group-hover\:font-extrabold {
